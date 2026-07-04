@@ -12,12 +12,6 @@
   Individual study @ <b>BCBL</b> (Bioinformatics &amp; Computational Biology Lab) · Daejeon, South Korea 🇰🇷
 </p>
 
-<p align="center">
-  <a href="mailto:lsm030406@kaist.ac.kr"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
-  <!-- TODO: add / remove links below as they apply -->
-  <a href="https://www.linkedin.com/in/sangmin-lee-351b9a348"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-</p>
-
 ---
 
 ### 🧬 About me
@@ -48,7 +42,7 @@ sangmin = {
 
 ---
 
-### 🚀 Featured projects
+### 🚀 Shipped
 
 #### 📝 MakeItMarkdown &nbsp;—&nbsp; [🌐 live](https://makeitmarkdown.pages.dev) · [source](https://github.com/L-Sangmin/makeitmarkdown)
 <p>
@@ -71,22 +65,24 @@ worker, and nothing persists on refresh.
 
 <sub>Stack: vanilla JS (no build step, vendored libs) · Node <code>--test</code> (101 tests) · Cloudflare Pages · PWA · MIT</sub>
 
-#### 🔬 Structure-prediction evaluation toolkit
-Experimental pipeline for evaluating folding/docking models on antibody–antigen and
-nanobody–antigen complexes, including **multi-seed inference** and confidence-vs-accuracy analysis.
-Runs against both a hosted prediction server and an open-source reproduction.
-<sub>Stack: Python · Docker · structural-bio data wrangling</sub>
+---
 
-#### 🕸️ Research knowledge-graph pipeline ("research wiki")
-An automated pipeline that ingests papers and builds a linked, queryable knowledge graph of my
-reading — designed for clean handoff to coding agents and idempotent re-runs.
-<sub>Stack: Python · Markdown/Obsidian · agent tooling</sub>
+### 🔬 Research — in progress
 
-#### 💉 Vaccine MCP
-An ongoing project exploring Model-Context-Protocol tooling applied to vaccine-related workflows.
-<sub>Stack: Python · MCP</sub>
+Work from my individual study at **BCBL@KAIST**. The code below lives in private or local-only
+repos for now — I open-source pieces as they mature and as the work reaches publication.
 
-<!-- Add more repos here as you open-source them. -->
+- **AF3 evaluation for antibody / nanobody complexes** — assessing structure- and
+  interaction-prediction quality on hard, leakage-controlled cases, with **multi-seed inference**
+  and confidence-vs-accuracy analysis, on a self-hosted AlphaFold3 server + Protenix.
+  <br><sub>Python · Docker · structural-bio data</sub>
+- **Research knowledge-graph pipeline** &nbsp;`🚧 in development` — automated paper ingestion into
+  a linked, queryable graph of my reading; runs a local LLM + the Gemini API. Goes public once
+  it's mature. <br><sub>Python · Markdown / Obsidian · agent tooling</sub>
+- **Vaccine MCP** &nbsp;`🔒 private` — Model-Context-Protocol tooling for vaccine-related
+  workflows; a collaborative project. <br><sub>Python · MCP</sub>
+
+<!-- Add public repos here as you open-source them. -->
 
 ---
 
@@ -106,15 +102,6 @@ An ongoing project exploring Model-Context-Protocol tooling applied to vaccine-r
   <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white" alt="pandas"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter"/>
   <!-- TODO: trim any of the above you don't actually use; add e.g. Rosetta, RDKit, Linux, LaTeX -->
-</p>
-
----
-
-### 📊 GitHub stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=L-Sangmin&show_icons=true&hide_border=true&count_private=true" alt="stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=L-Sangmin&layout=compact&hide_border=true&langs_count=8" alt="top langs" height="165"/>
 </p>
 
 ---
