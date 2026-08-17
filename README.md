@@ -65,6 +65,26 @@ worker, and nothing persists on refresh.
 
 <sub>Stack: vanilla JS (no build step, vendored libs) · Node <code>--test</code> (101 tests) · Cloudflare Pages · PWA · MIT</sub>
 
+#### 🐠 FPD Manual Generator &nbsp;—&nbsp; [🌐 live](https://fpdmanualgenerator.pages.dev) · source `🔒 private`
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Paged.js-print--CSS-F5A830?style=flat" alt="Paged.js"/>
+  <img src="https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat&logo=cloudflarepages&logoColor=white" alt="Cloudflare Pages"/>
+  <img src="https://img.shields.io/badge/client--side-only-5A0FC8?style=flat" alt="client-side only"/>
+</p>
+
+> **A print shop in a browser tab.** Fill in the values that change each year and get **four
+> finished manuals** — freshman and advisory-group editions, in Korean and English — typeset to a
+> 180×220mm trim and saved as a real vector PDF.
+
+Built for the **KAIST School of Freshman**, where I was head of the 16th Freshman Programme
+Designers. Rosters (`.xlsx`) and face photos (`.zip`) are parsed in the browser and composed on a
+300dpi stage; page count flows with the roster. Nothing is uploaded — which is the whole point,
+since the input is real students' names, contacts, and faces. The site is public; the repository
+stays private for the same reason.
+
+<sub>Stack: vanilla JS (no build step) · Paged.js · Playwright render harness · Cloudflare Pages</sub>
+
 ---
 
 ### 🔬 Research — in progress
