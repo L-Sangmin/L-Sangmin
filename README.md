@@ -16,18 +16,13 @@
 
 ### 🧬 About me
 
-I work at the boundary between **structural biology** and **machine learning**. My day-to-day sits
-in two connected threads:
+I work at the boundary between **structural biology** and **machine learning**. My day-to-day sits in three connected threads:
 
-- **Structure prediction & evaluation** — rigorously testing modern folding/docking models
-  (AlphaFold-family systems, open reproductions) on hard, leakage-controlled cases, with a focus
-  on *when and why they fail* rather than just headline accuracy.
-- **LLMs & agents for computational biology** — using language models and agentic workflows to
-  generalize traditionally narrow bio/chem tasks (molecule optimization, drug discovery, protein
-  reasoning), and building benchmarks/tooling that make these systems measurable.
+- **Structure prediction & evaluation** — rigorously testing modern folding/docking models (AlphaFold-family systems, open reproductions) on hard, leakage-controlled cases, with a focus on *when and why they fail* rather than just headline accuracy.
+- **LLMs & agents for computational biology** — using language models and agentic workflows to generalize traditionally narrow bio/chem tasks (molecule optimization, drug discovery, protein reasoning), and building benchmarks/tooling that make these systems measurable.
+- **General-purpose but practical AI/LLM applications** — using frontier models to build software that solves real problems, and to automate the repetitive parts of everyday work. It's how I build a working sense of where AI actually gives leverage.
 
-Longer term I'm most excited about **developing capable protein language models (pLMs)** and the
-evaluation methodology that keeps them honest.
+Most of my current work sits in that third thread — shipping is the fastest way to learn where these models actually hold up, and that instinct is exactly what the first two need. Longer term I'm most excited about **developing capable protein language models (pLMs)** and the evaluation methodology that keeps them honest.
 
 ```python
 sangmin = {
@@ -52,16 +47,9 @@ sangmin = {
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat" alt="MIT"/>
 </p>
 
-> **Feed your LLM better.** A free, browser-only *context workbench* that converts **15 technical
-> document formats** (`.ipynb`, `.docx`, `.pptx`, `.xlsx`, `.pdf`, `.tex`, `.eml`, `.srt`, …) into
-> **LLM-ready Markdown** — and hands back a fidelity report of exactly what the parser detected,
-> recovered, and lost.
+> **Feed your LLM better.** A free, browser-only *context workbench* that converts **15 technical document formats** (`.ipynb`, `.docx`, `.pptx`, `.xlsx`, `.pdf`, `.tex`, `.eml`, `.srt`, …) into **LLM-ready Markdown** — and hands back a fidelity report of exactly what the parser detected, recovered, and lost.
 
-Not a file converter but a **trust view**: original preview · converted Markdown · a weighted QC
-score (8 structural checks). Five output presets — Standard / Chat / **RAG** (chunk anchors) /
-**Obsidian** (callouts, wikilinks, frontmatter) / Archive — with real `o200k` token counting.
-**100% client-side**: files never leave the browser, the tool runs fully offline via service
-worker, and nothing persists on refresh.
+Not a file converter but a **trust view**: original preview · converted Markdown · a weighted QC score (8 structural checks). Five output presets — Standard / Chat / **RAG** (chunk anchors) / **Obsidian** (callouts, wikilinks, frontmatter) / Archive — with real `o200k` token counting. **100% client-side**: files never leave the browser, the tool runs fully offline via service worker, and nothing persists on refresh.
 
 <sub>Stack: vanilla JS (no build step, vendored libs) · Node <code>--test</code> (101 tests) · Cloudflare Pages · PWA · MIT</sub>
 
@@ -73,15 +61,9 @@ worker, and nothing persists on refresh.
   <img src="https://img.shields.io/badge/client--side-only-5A0FC8?style=flat" alt="client-side only"/>
 </p>
 
-> **A print shop in a browser tab.** Fill in the values that change each year and get **four
-> finished manuals** — freshman and advisory-group editions, in Korean and English — typeset to a
-> 180×220mm trim and saved as a real vector PDF.
+> **A print shop in a browser tab.** Fill in the values that change each year and get **four finished manuals** — freshman and advisory-group editions, in Korean and English — typeset to a 180×220mm trim and saved as a real vector PDF.
 
-Built for the **KAIST School of Freshman**, where I was head of the 16th Freshman Programme
-Designers. Rosters (`.xlsx`) and face photos (`.zip`) are parsed in the browser and composed on a
-300dpi stage; page count flows with the roster. Nothing is uploaded — which is the whole point,
-since the input is real students' names, contacts, and faces. The site is public; the repository
-stays private for the same reason.
+Built for the **KAIST School of Freshman**, where I was head of the 16th Freshman Program Designers. Rosters (`.xlsx`) and face photos (`.zip`) are parsed in the browser and composed on a 300dpi stage; page count flows with the roster. Nothing is uploaded — which is the whole point, since the input is real students' names, contacts, and faces. The site is public; the repository stays private for the same reason.
 
 <sub>Stack: vanilla JS (no build step) · Paged.js · Playwright render harness · Cloudflare Pages</sub>
 
@@ -89,18 +71,12 @@ stays private for the same reason.
 
 ### 🔬 Research — in progress
 
-Work from my individual study at **BCBL@KAIST**. The code below lives in private or local-only
-repos for now — I open-source pieces as they mature and as the work reaches publication.
+Work from my individual study at **BCBL@KAIST**. The code below lives in private or local-only repos for now — I open-source pieces as they mature and as the work reaches publication.
 
-- **AF3 evaluation for antibody / nanobody complexes** — assessing structure- and
-  interaction-prediction quality on hard, leakage-controlled cases, with **multi-seed inference**
-  and confidence-vs-accuracy analysis, on a self-hosted AlphaFold3 server + Protenix.
+- **AF3 evaluation for antibody / nanobody complexes** — assessing structure- and interaction-prediction quality on hard, leakage-controlled cases, with **multi-seed inference** and confidence-vs-accuracy analysis, on a self-hosted AlphaFold3 server + Protenix.
   <br><sub>Python · Docker · structural-bio data</sub>
-- **Research knowledge-graph pipeline** &nbsp;`🚧 in development` — automated paper ingestion into
-  a linked, queryable graph of my reading; runs a local LLM + the Gemini API. Goes public once
-  it's mature. <br><sub>Python · Markdown / Obsidian · agent tooling</sub>
-- **Vaccine MCP** &nbsp;`🔒 private` — Model-Context-Protocol tooling for vaccine-related
-  workflows; a collaborative project. <br><sub>Python · MCP</sub>
+- **Research knowledge-graph pipeline** &nbsp;`🚧 in development` — automated paper ingestion into a linked, queryable graph of my reading; runs a local LLM + the Gemini API. Goes public once it's mature. <br><sub>Python · Markdown / Obsidian · agent tooling</sub>
+- **Vaccine MCP** &nbsp;`🔒 private` — Model-Context-Protocol tooling for vaccine-related workflows; a collaborative project. <br><sub>Python · MCP</sub>
 
 <!-- Add public repos here as you open-source them. -->
 
