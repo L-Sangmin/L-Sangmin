@@ -80,29 +80,3 @@ Work from my individual study at **BCBL@KAIST**. The code below lives in private
 - **Vaccine MCP** &nbsp;`🔒 private` — Model-Context-Protocol tooling for vaccine-related workflows; a collaborative project. <br><sub>Python · MCP</sub>
 
 <!-- Add public repos here as you open-source them. -->
-
----
-
-### 🛠️ Tech stack
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white" alt="MATLAB"/>
-  <img src="https://img.shields.io/badge/F%23-378BBA?style=flat&logo=fsharp&logoColor=white" alt="F#"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/>
-</p>
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white" alt="pandas"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter"/>
-  <!-- TODO: trim any of the above you don't actually use; add e.g. Rosetta, RDKit, Linux, LaTeX -->
-</p>
-
----
-
-<p align="center"><sub>
-  "All models are wrong, but some are useful." — and knowing <i>which</i> is the whole job.
-</sub></p>
