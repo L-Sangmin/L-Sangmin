@@ -16,13 +16,14 @@
 
 ### 🧬 About me
 
-I work at the boundary between **structural biology** and **machine learning**. My day-to-day sits in three connected threads:
+I work at the boundary between **structural biology** and **machine learning**. My day-to-day sits in four connected threads:
 
 - **Structure prediction & evaluation** — rigorously testing modern folding/docking models (AlphaFold-family systems, open reproductions) on hard, leakage-controlled cases, with a focus on *when and why they fail* rather than just headline accuracy.
+- **Bio-tooling on Apple Silicon** - porting structure prediction and design tools to MLX so they run natively on ordinary Macs, with verification harnesses that hold ported outputs to reference implementations rather than trusting them.
 - **LLMs & agents for computational biology** — using language models and agentic workflows to generalize traditionally narrow bio/chem tasks (molecule optimization, drug discovery, protein reasoning), and building benchmarks/tooling that make these systems measurable.
 - **General-purpose but practical AI/LLM applications** — using frontier models to build software that solves real problems, and to automate the repetitive parts of everyday work. It's how I build a working sense of where AI actually gives leverage.
 
-Most of my current work sits in that third thread — shipping is the fastest way to learn where these models actually hold up, and that instinct is exactly what the first two need. Longer term I'm most excited about **developing capable protein language models (pLMs)** and the evaluation methodology that keeps them honest.
+Most of my current work sits in that fourth thread — shipping is the fastest way to learn where these models actually hold up, and that instinct is exactly what the first two need. Longer term I'm most excited about **developing capable protein language models (pLMs)** and the evaluation methodology that keeps them honest.
 
 ```python
 sangmin = {
